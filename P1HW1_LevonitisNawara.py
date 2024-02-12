@@ -6,15 +6,17 @@
 
 # It collects information from user, processes information collected and display results to user.
 
-Number_one = int(input())
-print("Enter integer:", Number_one)
-print("You entered:", Number_one)
-print(Number_one, "squard is", Number_one*Number_one)
-print("And", Number_one, "cubed is", Number_one*Number_one*Number_one, "!!")
+First = int(input())
+print("Enter integer:")
+print(First)
+print("You entered:", First)
+print(First, "squared is", First*First)
+print("And", First, "cubed is", First*First*First, "!!")
 
-Number_two = int(input())
-print("Enter another integer:", Number_two)
-print(Number_one, "+", Number_two, "is", Number_one+Number_two)
-print(Number_one, "*", Number_two, "is", Number_one*Number_two)
+Second = int(input())
+print("Enter another integer:")
+print(Second)
+print(First, "+", Second, "is", First+Second)
+print(First, "*", Second, "is", First*Second)
  
  
